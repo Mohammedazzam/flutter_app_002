@@ -20,6 +20,9 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Welcom To Flutter"),
+      ),
       body: Container(
         color: Colors.teal,
 //        width:350,
