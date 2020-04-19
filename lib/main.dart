@@ -27,7 +27,10 @@ class HomeScreen extends StatelessWidget {
         margin: EdgeInsets.only(left: 50,right: 150 ,top: 60,bottom: 65),
         padding: EdgeInsets.all(25),
         child: Text("Welcome Ahmed", style: TextStyle(
-          color: Colors.white
+          color: Colors.white,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+
         ),),
       ),
     );
