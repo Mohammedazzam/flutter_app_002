@@ -30,6 +30,8 @@ class HomeScreen extends StatelessWidget {
           color: Colors.white,
           fontSize: 18,
           fontWeight: FontWeight.bold,
+          letterSpacing: 3,
+          decoration: TextDecoration.lineThrough
 
         ),),
       ),
