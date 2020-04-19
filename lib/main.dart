@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) { //build هي المسؤولة عن بناء الوجدت
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home:HomeScreen(),
     );
   }
