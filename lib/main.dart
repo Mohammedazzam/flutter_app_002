@@ -20,7 +20,13 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      body: Container(),
+      body: Container(
+        color: Colors.teal,
+//        margin: EdgeInsets.all(30),
+//        margin: EdgeInsets.only(left: 50,top: 60),
+        margin: EdgeInsets.only(left: 50,right: 150 ,top: 60,bottom: 65),
+
+      ),
     );
   }
 }
