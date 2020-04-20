@@ -22,7 +22,11 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+//        mainAxisAlignment: MainAxisAlignment.center,
+//        mainAxisAlignment: MainAxisAlignment.spaceAround,
+//        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
         children: <Widget>[
           Text('Text 1'),
           Text('Text 2'),
