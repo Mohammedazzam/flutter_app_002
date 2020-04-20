@@ -21,18 +21,25 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(),
-      body: Row(
-//        mainAxisAlignment: MainAxisAlignment.center,
-//        mainAxisAlignment: MainAxisAlignment.spaceAround,
-//        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-
-        children: <Widget>[
-          Text('Text 1'),
-          Text('Text 2'),
-          Text('Text 3'),
+      body: Stack(
+        children: <Widget>[ //سيطبع اللون الأصفر فقط ولكن الأحمر موجود ولكن خلفه مباشرة
+          SizedBox(
+            width: 25,
+            height: 25,
+            child: Container(
+              color: Colors.red,
+            ),
+          ),
+          SizedBox(
+            width: 25,
+            height: 25,
+            child: Container(
+              color: Colors.yellow,
+            ),
+          )
         ],
-      ),
+      )
     );
   }
 }
+
