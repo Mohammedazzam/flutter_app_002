@@ -24,8 +24,8 @@ class HomeScreen extends StatelessWidget {
       body: Stack(
         children: <Widget>[ //سيطبع اللون الأصفر فقط ولكن الأحمر موجود ولكن خلفه مباشرة
           SizedBox(
-            width: 25,
-            height: 25,
+            width: 35,
+            height: 35,
             child: Container(
               color: Colors.red,
             ),
