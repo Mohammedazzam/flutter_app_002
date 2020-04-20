@@ -22,6 +22,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Stack(
+        alignment: Alignment.centerRight,
         children: <Widget>[ //سيطبع اللون الأصفر فقط ولكن الأحمر موجود ولكن خلفه مباشرة
           SizedBox(
             width: 35,
