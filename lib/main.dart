@@ -28,20 +28,21 @@ class HomeScreen extends StatelessWidget {
         children: <Widget>[
           Container(
             color: Colors.red,
-            width: 50,
+            width: double.infinity,
             height: 50,
 
           ),
           Container(
             color: Colors.green,
-            width: 50,
+            width: double.infinity,
             height: 50,
           ),
           Container(
             color: Colors.amber,
-            width: 50,
+            width: double.infinity,
             height: 50,
-          )
+          ),
+          Text("Iam Mohammed")
         ],
       )
 
