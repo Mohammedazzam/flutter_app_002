@@ -20,34 +20,14 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Welcom To Flutter"),
-        centerTitle: true,
-      ),
-      body:Column(
+      appBar: AppBar(),
+      body: Row(
         children: <Widget>[
-          Container(
-            color: Colors.red,
-            width: double.infinity,
-            height: 50,
-
-          ),
-          Container(
-            color: Colors.green,
-            width: double.infinity,
-            height: 50,
-          ),
-          Expanded(
-            child: Container(
-            color: Colors.amber,
-            width: double.infinity,
-            height: 50,
-          ),
-          ),
-          Text("Iam Mohammed")
+          Text('Text 1'),
+          Text('Text 2'),
+          Text('Text 3'),
         ],
-      )
-
+      ),
     );
   }
 }
