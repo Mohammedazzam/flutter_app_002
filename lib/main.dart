@@ -22,6 +22,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text('Text 1'),
           Text('Text 2'),
