@@ -37,10 +37,12 @@ class HomeScreen extends StatelessWidget {
             width: double.infinity,
             height: 50,
           ),
-          Container(
+          Expanded(
+            child: Container(
             color: Colors.amber,
             width: double.infinity,
             height: 50,
+          ),
           ),
           Text("Iam Mohammed")
         ],
